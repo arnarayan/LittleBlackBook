@@ -11,6 +11,8 @@
 		005786012999871A00C5A9B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005786002999871A00C5A9B0 /* ContentView.swift */; };
 		005786032999871D00C5A9B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 005786022999871D00C5A9B0 /* Assets.xcassets */; };
 		005786062999871D00C5A9B0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 005786052999871D00C5A9B0 /* Preview Assets.xcassets */; };
+		005786112999D27900C5A9B0 /* ListItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005786102999D27900C5A9B0 /* ListItems.swift */; };
+		005786132999D59500C5A9B0 /* EditItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005786122999D59500C5A9B0 /* EditItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		005786002999871A00C5A9B0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		005786022999871D00C5A9B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		005786052999871D00C5A9B0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		005786102999D27900C5A9B0 /* ListItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItems.swift; sourceTree = "<group>"; };
+		005786122999D59500C5A9B0 /* EditItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,7 @@
 		005785FD2999871A00C5A9B0 /* LittleBlackBook */ = {
 			isa = PBXGroup;
 			children = (
+				0057860E2999D25600C5A9B0 /* Book */,
 				005785FE2999871A00C5A9B0 /* LittleBlackBookApp.swift */,
 				005786002999871A00C5A9B0 /* ContentView.swift */,
 				005786022999871D00C5A9B0 /* Assets.xcassets */,
@@ -65,6 +70,23 @@
 				005786052999871D00C5A9B0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0057860E2999D25600C5A9B0 /* Book */ = {
+			isa = PBXGroup;
+			children = (
+				0057860F2999D25C00C5A9B0 /* Views */,
+			);
+			path = Book;
+			sourceTree = "<group>";
+		};
+		0057860F2999D25C00C5A9B0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				005786102999D27900C5A9B0 /* ListItems.swift */,
+				005786122999D59500C5A9B0 /* EditItem.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +161,8 @@
 			files = (
 				005786012999871A00C5A9B0 /* ContentView.swift in Sources */,
 				005785FF2999871A00C5A9B0 /* LittleBlackBookApp.swift in Sources */,
+				005786132999D59500C5A9B0 /* EditItem.swift in Sources */,
+				005786112999D27900C5A9B0 /* ListItems.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
